@@ -1,0 +1,1 @@
+This bug demonstrates a common type error in TypeScript. The function `combine` is declared to return a number, but attempts to add a number and a string.  TypeScript correctly identifies this as a type error because string and number cannot be directly added using the '+' operator.  The solution demonstrates how to properly type the function and handle potential type mismatches.
